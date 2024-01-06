@@ -1,8 +1,8 @@
 import * as get_var from './variable.js'
 
 get_var.menu_submit.addEventListener('click', () => {
-  console.log(get_var.menu_name.value, get_var.menu_description.value)
-
+  //redirect
+  window.location.href = '/index.html';
 })
 
 console.log("import new_menu.js");
